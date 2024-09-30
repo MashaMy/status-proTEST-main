@@ -36,7 +36,7 @@ export const Contact = () => (
  <div className='container'>
 <div className='row'>
 <div className='col-lg-6 pt-lg-0 order-2 order-lg-1 content map-responsive'>
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.151824188208!2d39.72636178963084!3d43.582553856998636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cbd5be430555%3A0xfc0ac1348b7b5fec!2z0J_QtdGA0LLQvtC80LDQudGB0LrQsNGPINGD0LsuLCAyNiwg0KHQvtGH0LgsINCa0YDQsNGB0L3QvtC00LDRgNGB0LrQuNC5INC60YDQsNC5LCAzNTQwMDA!5e0!3m2!1sru!2sru!4v1723312836250!5m2!1sru!2sru" width="450" height="350" style= {{"border": 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.151824188208!2d39.72636178963084!3d43.582553856998636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cbd5be430555%3A0xfc0ac1348b7b5fec!2z0J_QtdGA0LLQvtC80LDQudGB0LrQsNGPINGD0LsuLCAyNiwg0KHQvtGH0LgsINCa0YDQsNGB0L3QvtC00LDRgNGB0LrQuNC5INC60YDQsNC5LCAzNTQwMDA!5e0!3m2!1sru!2sru!4v1723312836250!5m2!1sru!2sru" width="450" height="350" style= {{"border": 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="contact"></iframe>
    </div>
    <div className='col-lg-6 order-1 order-lg-2'>
 <h3>STATUS PROJECTS</h3>
