@@ -1,0 +1,57 @@
+body {
+background: url('/src/Asserts/obratno.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+h2, h3, h4, p, li, ul  {
+    color: white;
+    }
+
+    .about li ul {
+list-style-type: none;
+    }
+
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      .map-responsive{
+        padding-top: 8%;
+        overflow:hidden;
+        padding-bottom:34%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+    
+
+      @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css'); 
+
+            html,
+      body {
+        height: 100%
+      }
+      
+      .adeptFoter{
+        text-align: center;
+      }
+
+      .adeptPe {
+font-size: smaller;
+      }
+
+    
