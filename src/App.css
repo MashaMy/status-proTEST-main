@@ -1,9 +1,14 @@
 body {
-background: url('/src/Asserts/obratno.jpg') no-repeat center center fixed;
+background-image: url('/src/Asserts/obratno.jpg');
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+        width: 100vw;
+        margin: 0;
     }
 
 h2, h3, h4, p, li, ul  {
@@ -37,7 +42,7 @@ list-style-type: none;
         position:absolute;
     }
 
-    @media(max-width: 500px){
+    
       
         @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css'); 
 
@@ -46,13 +51,6 @@ list-style-type: none;
         height: 100% 
       }
 
-      body {
-        background: url('/src/Asserts/obratno.jpg') no-repeat center center fixed;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-            }
       
       .adeptFoter{
         text-align: center;
@@ -62,4 +60,4 @@ list-style-type: none;
 font-size: smaller;
       }
 
-    }
+    
