@@ -1,5 +1,5 @@
 body {
-background: url('/src/Asserts/obratno.jpg') no-repeat center center scroll;
+background: url('/src/Asserts/obratno.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -47,7 +47,7 @@ list-style-type: none;
       }
 
       body {
-        background: url('/src/Asserts/obratno.jpg') no-repeat center center scroll;
+        background: url('/src/Asserts/obratno.jpg') no-repeat center center fixed;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
