@@ -44,20 +44,21 @@ list-style-type: none;
 
     
       
-        @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css'); 
+       @media all and (max-width: 500px) {
+        .slider-one {
+          margin-bottom: 100px;
+        }
 
-            html,
-      body {
-        height: 100% 
-      }
+        .adeptFoter{
+          text-align: center;
+        }
+  
+        .adeptPe {
+        font-size: smaller;
+        }
+          
+       } 
 
+                 
       
-      .adeptFoter{
-        text-align: center;
-      }
-
-      .adeptPe {
-font-size: smaller;
-      }
-
     

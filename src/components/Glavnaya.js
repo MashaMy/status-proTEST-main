@@ -18,6 +18,7 @@ import PacetUnic from './Pacetsum/PacetUnic'
 import PacetStandart from './Pacetsum/PacetStandart';
 import PacetKapsula from './Pacetsum/PacetKapsula';
 import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
 
 const Styles = styled.div `
@@ -49,7 +50,7 @@ export const Glavnaya = () => (
       <Container style={{marginBottom: '30px'}} >
     <h3 className ="text-center m-3">Наши работы</h3>
        <Row>
-          <Col md={6}>
+          <Col md={6} className='slider-one' >
     <Carousel >
         <Carousel.Item  interval={1000} style={{'height': '500px'}} >
           <img    src={ renderOne } alt="komnata" text="First slide" />
