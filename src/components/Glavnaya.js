@@ -49,48 +49,40 @@ export const Glavnaya = () => (
     
       <Container style={{marginBottom: '30px'}} >
     <h3 className ="text-center m-3">Наши работы</h3>
-       <Row>
-          <Col md={6} className='slider-one' >
-    <Carousel >
-        <Carousel.Item  interval={1000} style={{'height': '500px'}} >
-          <img    src={ renderOne } alt="komnata" text="First slide" />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500} style={{'height': '500px'}}>
-          <img    src={ renderTwo } alt="komnata" text="Second slide" />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item style={{'height': '500px'}}>
-          < img    src= { renderTr }  alt="komnata" text="Third slide" />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-        </Col>
+    <Row>
           <Col md={6}>
-        <Carousel>
-
-
-    <Carousel.Item interval={1000} style={{'height': '500px'}}>
-          <img  src={ classOne } alt="komnata" text="First slide" />
-          <Carousel.Caption>
-            </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500} style={{'height': '500px'}}>
-          <img  src={ classTwo } alt="komnata" text="Second slide" />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item style={{'height': '500px'}}>
-          < img src= { classTr }  alt="komnata" text="Third slide" />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-</Col>
-</Row>
+            <Carousel style={{ marginBottom: "20px" }}>
+              <Carousel.Item interval={1000} style={{ height: "500px" }}>
+                <img src={renderOne} alt="komnata" text="First slide" />
+                <Carousel.Caption></Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={500} style={{ height: "500px" }}>
+                <img src={renderTwo} alt="komnata" text="Second slide" />
+                <Carousel.Caption></Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ height: "500px" }}>
+                <img src={renderTr} alt="komnata" text="Third slide" />
+                <Carousel.Caption></Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+          <Col md={6}>
+            <Carousel style={{ marginBottom: "20px" }}>
+              <Carousel.Item interval={1000} style={{ height: "500px" }}>
+                <img src={classOne} alt="komnata" text="First slide" />
+                <Carousel.Caption></Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={500} style={{ height: "500px" }}>
+                <img src={classTwo} alt="komnata" text="Second slide" />
+                <Carousel.Caption></Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ height: "500px" }}>
+                <img src={classTr} alt="komnata" text="Third slide" />
+                <Carousel.Caption></Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+        </Row>
    </Container>
   
 

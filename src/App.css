@@ -45,10 +45,7 @@ list-style-type: none;
     
       
        @media all and (max-width: 500px) {
-        .slider-one {
-          margin-bottom: 100px;
-        }
-
+        
         .adeptFoter{
           text-align: center;
         }
