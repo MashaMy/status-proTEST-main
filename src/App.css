@@ -2,14 +2,13 @@
 body {
     
 background-image: url('/src/Asserts/obratno.jpg');
-background-attachment: fixed; 
+ background-attachment: fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        min-height: 100vh;
         width: 100vw;
         margin: 0;
         
@@ -48,10 +47,12 @@ list-style-type: none;
 
     
       
-       @media all and (max-width: 500px) {
+       @media all and (max-width: 650px) {
 
         body {
-            background-color: rgba(0,0,0,1.00) !important;
+            background-image: none;
+            background-color: black !important;
+        }
         }
         
         .adeptFoter{
@@ -65,7 +66,7 @@ list-style-type: none;
         .fixednon {
             display: none; 
 }
-       } 
+       
 
                  
       
