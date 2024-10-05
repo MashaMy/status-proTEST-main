@@ -88,13 +88,13 @@ export const Glavnaya = () => (
   
 
 
-   <Container class ='about my-3' id='about'>
+   <Container className ='about my-3 fixednon' id='about'>
    <h3 className ="text-center m-3">Дизайнеры</h3>
    <Row > 
    <Col  md={4}>
     <div class ='container text-center'>
 <div className ='row mx-auto'>
-   <div class="col d-flex justify-content-center">
+   <div class="col d-flex justify-content-center ">
    <Card.Img variant = 'top rounded-2 text-center' src={ natal }/>
    </div>
    <div>
