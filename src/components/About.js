@@ -32,7 +32,7 @@ color: white;
 export const About = () => (
     <>
     <Styles >
-  <div class ="text-light">
+  <div class ="text-light fixednon">
  <div class="pt-4 text-center rounded-3 ">
      <div class=" py-0 ">
       <h1 class="text-emphasis ">Нам можно доверять: </h1>

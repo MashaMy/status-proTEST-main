@@ -8,7 +8,7 @@ import interTreee from '../Asserts/interTreee.jpg';
 
 function Slaider() {
     return (
-        <Carousel>
+        <Carousel className="fixednon" >
         <Carousel.Item interval={1000} style={{'height': '500px'}}>
           <img src={ interOne } alt="komnata" text="First slide" />
           <Carousel.Caption>
