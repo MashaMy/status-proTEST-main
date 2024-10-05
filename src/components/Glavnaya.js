@@ -28,6 +28,7 @@ text-decoration: none;
 color: white;
 }
 
+
 a:hover {
 color: black;
 }
@@ -43,8 +44,8 @@ color: white;
 `
 
 export const Glavnaya = () => (
-     <Styles >
-      <main >
+     <Styles>
+      <main>
     <Slaider/>
     
       <Container style={{marginBottom: '30px'}} >
