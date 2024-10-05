@@ -56,7 +56,7 @@ const Styles = styled.div`
 function Portfolio() {
   return (
     <>
-      <Container style={{ marginBottom: "30px" }} className="fixednon">
+      <Container style={{ marginBottom: "30px" }} >
         <Styles>
           <h4 className="text-center pt-3 py-2">ЖК Морской квартал</h4>{" "}
         </Styles>
@@ -176,7 +176,7 @@ function Portfolio() {
         </Row>
       </Container>
 
-      <Container style={{ marginBottom: "30px" }} className="fixednon" >
+      <Container style={{ marginBottom: "30px" }} >
         <Styles>
           <h4 className="text-center pt-3 py-2">ЖК Фрукты Сириус</h4>{" "}
         </Styles>
