@@ -46,7 +46,7 @@ color: white;
 export const Glavnaya = () => (
      <Styles>
       <main>
-    <Slaider/>
+    <Slaider className='fixednon'/>
     
       <Container style={{marginBottom: '30px'}} >
     <h3 className ="text-center m-3">Наши работы</h3>
@@ -177,7 +177,7 @@ export const Glavnaya = () => (
 
 
 
-<Container>
+<Container className='fixednon'>
   <div className="pt-3">
 <h3 className="text-center m-3 "> Новые отзывы </h3>
 <div className="row pt-5 kraska">

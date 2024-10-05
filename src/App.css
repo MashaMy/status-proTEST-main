@@ -57,6 +57,11 @@ list-style-type: none;
         .adeptPe {
         font-size: smaller;
         }
+
+        .fixednon {
+            display: none; 
+        }
+
           
        } 
 
