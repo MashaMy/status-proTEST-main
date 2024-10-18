@@ -18,7 +18,7 @@ const Styles = styled.div`
     margin: 0;
   }
   .navbar-brand,
-  .navbar-nav .nav-link,
+  .navbar-nav, .nav-link,
   a {
     font-size: large;
     padding: 6px;
@@ -28,7 +28,7 @@ const Styles = styled.div`
     color: white;
     }
   }
-  button,  {
+  button {
     text-decoration: none;
     font-size: large;
     padding: 6px;
@@ -41,7 +41,10 @@ const Styles = styled.div`
 
   .menu-text {
   background-color: Transparent!important;
-  color: white;
+ color: #adb1b8;
+    &:hover {
+    color: white;
+    }
   }
 `;
 
@@ -54,9 +57,8 @@ export default function Header() {
             <img className='fixednon' src={logot} alt="foto" style={{ height: "55px" }} />
           </Link>
         </NavbarBrand>
-
-        <NavbarToggle aria-controls="responsive-navbar-nav"/> 
-        <span className="menu-text">Меню</span>
+        <NavbarToggle aria-controls="responsive-navbar-nav"></NavbarToggle>
+        <span className="menu-text pokazvmobile">Меню</span>
         
         <NavbarCollapse id="responsive-navbar-nav" > 
           <Nav className="m-auto">
