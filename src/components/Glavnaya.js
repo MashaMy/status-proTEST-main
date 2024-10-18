@@ -52,7 +52,7 @@ export const Glavnaya = () => (
     <h3 className ="text-center m-3">Наши работы</h3>
     <Row>
           <Col md={6}>
-            <Carousel style={{ marginBottom: "20px" }}>
+            <Carousel style={{ marginBottom: "20px", justifyContent: "center"}}>
               <Carousel.Item interval={1000} style={{ height: "500px" }}>
                 <img src={renderOne} alt="komnata" text="First slide" />
                 <Carousel.Caption></Carousel.Caption>
@@ -68,7 +68,7 @@ export const Glavnaya = () => (
             </Carousel>
           </Col>
           <Col md={6}>
-            <Carousel style={{ marginBottom: "20px" }}>
+            <Carousel style={{ marginBottom: "20px", justifyContent: "center"}}>
               <Carousel.Item interval={1000} style={{ height: "500px" }}>
                 <img src={classOne} alt="komnata" text="First slide" />
                 <Carousel.Caption></Carousel.Caption>
@@ -122,7 +122,7 @@ export const Glavnaya = () => (
    </div>
    <div>
    <CardBody >
-   <CardText as='div' class=' text-center pt-2'>
+   <CardText as='div' class ='text-center pt-2'>
 <h4>Надежда Коваленко</h4>
 <p>
 "Создаю пространство, которое будет работать на Вас"

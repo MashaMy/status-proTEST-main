@@ -53,8 +53,16 @@ list-style-type: none;
         }
     
     }
+
+    @media all and (min-width: 991px) {
+        .wrapper {
+            max-width: 100%;
+    }
     
-    @media all and (max-width: 450px) {
+
+    }
+    
+    @media all and (max-width: 768px) {
 
         body {
             background-image: none;
