@@ -1,8 +1,8 @@
 import { } from 'react-bootstrap';
 import React from 'react';
-import ikonteg from '../Asserts/ikonteg.png'
-import ikonwh from '../Asserts/iconwh.png'
-import ikonvk from '../Asserts/iconvk.png'
+// import ikonteg from '../Asserts/ikonteg.png'
+// // import ikonwh from '../Asserts/iconwh.png'
+// import ikonvk from '../Asserts/iconvk.png'
 
 import styled from 'styled-components';
 
@@ -55,11 +55,9 @@ Email: <a href="mailto:Statusprojects@mail.ru" target="_blank "> Statusprojects@
 <p className="font-italic">
 С нами связаться: 
 </p>
-<p>
-  <a className='fixednon' href="https://chat.whatsapp.com/ILwcS1gM8rK4iJj6eTEAZN" target="_blank "><img width="41" height="41" src={ ikonwh } alt='tel'/></a>
-  <a className='fixednon' href="https://vk.com/interior_design_sochi_1" target="_blank "><img width="41" height="41" src={ ikonvk } alt='tel'/></a>
-  <a className='fixednon' href="https://t.me/design_buroSP" target="_blank "><img width="35" height="41" src={ikonteg} alt='tel'/></a>
-</p>
+<p><a className='fixednon' href="https://vk.com/interior_design_sochi_1" target="_blank ">Изучить ВКОНТАКТЕ</a></p>
+<p><a className='fixednon' href="https://t.me/design_buroSP" target="_blank ">Telegram</a></p>
+
 
 <div>
 <a href="https://wa.me/79631612833" target="_blank "><button type="button" className="btn btn-outline-light ">Написать WhatsApp</button></a>
