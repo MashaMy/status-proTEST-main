@@ -23,6 +23,7 @@ import { Contact }  from './components/Contact';
 function App() {
   return (
     <>
+    <div class="wrapper">
     <Router>
     <Header/>
      <Routes>
@@ -39,7 +40,7 @@ function App() {
       
     <ScrollButton /> 
     <Footer/>
-
+    </div>
 </>
   )
 }

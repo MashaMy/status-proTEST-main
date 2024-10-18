@@ -114,7 +114,7 @@ function Price() {
 <>
 <FormGroup>
   <h5>Сколько квадратных метров ваш объект?</h5>
-<FormControl  type='text' placeholder='введите цифру или цифру с запятой: 28 или 28,9'
+<FormControl  type='text' placeholder='введите цифру или цифру через точку: 28 или 28.9'
 
 onChange={onChangeEvent}
 value={ square }></FormControl>
