@@ -79,8 +79,8 @@ export default function Header() {
               Написать дизайнеру
               {/* <img width="25" height="31" src={ikonteg} alt="tel" /> */}
             </a>
-            <a className="mx-3" href="tel:+79631612833">
-              +7 963 161 28 33
+            <a className="mx-3" href="tel:+78002502838">
+            8 800 250 28 38
             </a>
           </Nav>
         </NavbarCollapse>
