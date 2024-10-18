@@ -15,6 +15,7 @@ const Styles = styled.div`
   .navbar {
     display: flex;
     justify-content: center;
+    margin: 0;
   }
   .navbar-brand,
   .navbar-nav .nav-link,
@@ -24,10 +25,10 @@ const Styles = styled.div`
     text-decoration: none;
     color: #adb1b8;
     &:hover {
-      color: white;
+    color: white;
     }
   }
-  button {
+  button,  {
     text-decoration: none;
     font-size: large;
     padding: 6px;
@@ -36,6 +37,11 @@ const Styles = styled.div`
     border: none;
     cursor: pointer;
     overflow: hidden;
+  }
+
+  .menu-text {
+  background-color: Transparent!important;
+  color: white;
   }
 `;
 
@@ -49,8 +55,10 @@ export default function Header() {
           </Link>
         </NavbarBrand>
 
-        <NavbarToggle aria-controls="responsive-navbar-nav" />
-        <NavbarCollapse id="responsive-navbar-nav">
+        <NavbarToggle aria-controls="responsive-navbar-nav"/> 
+        <span className="menu-text">Меню</span>
+        
+        <NavbarCollapse id="responsive-navbar-nav" > 
           <Nav className="m-auto">
             <Nav.Link className="mx-3" as={Link} to="/">
               Главная

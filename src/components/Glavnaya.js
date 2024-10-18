@@ -28,7 +28,6 @@ text-decoration: none;
 color: white;
 }
 
-
 a:hover {
 color: black;
 }
@@ -37,7 +36,6 @@ color: black;
    background-color: #d4dde4;
   }
 
-  
 h2, h3, h4, p, li, ul {
 color: white;
 }
@@ -49,7 +47,10 @@ export const Glavnaya = () => (
     <Slaider/>
     
       <Container  style={{marginBottom: '30px'}}>
-    <h3 className ="text-center m-3">Наши работы</h3>
+    <h3 className ="text-center m-3 fixednon">Наши работы</h3>
+    <h3 className ="text-center m-3 pokazvmobile">STATUS PROJECTS</h3>
+    <h4 className ="text-center m-3 pokazvmobile"> Создаем пространство, в котором каждый элемент будет отражать вашу индивидуальность! </h4>
+   
     <Row>
           <Col md={6}>
             <Carousel  style={{ marginBottom: "20px"}}>

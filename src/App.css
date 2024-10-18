@@ -45,7 +45,10 @@ list-style-type: none;
         position:absolute;
     }
 
-    
+    .pokazvmobile {
+        display: none; 
+    }
+
     
     @media all and (max-width: 1600px) {
         img {
@@ -58,6 +61,7 @@ list-style-type: none;
         img {
             width: 100%;
     }
+    
 
     }
     
@@ -78,8 +82,11 @@ list-style-type: none;
 
         .fixednon {
             display: none; 
-}
-       
+        }
+
+        .pokazvmobile {
+            display: block;
+        }
        }
                  
       

@@ -55,8 +55,8 @@ Email: <a href="mailto:Statusprojects@mail.ru" target="_blank "> Statusprojects@
 <p className="font-italic">
 С нами связаться: 
 </p>
-<p><a className='fixednon' href="https://vk.com/interior_design_sochi_1" target="_blank ">Изучить ВКОНТАКТЕ</a></p>
-<p><a className='fixednon' href="https://t.me/design_buroSP" target="_blank ">Telegram</a></p>
+<p><a href="https://vk.com/interior_design_sochi_1" target="_blank ">Изучить ВКОНТАКТЕ</a></p>
+<p><a href="https://t.me/design_buroSP" target="_blank ">Telegram</a></p>
 
 
 <div>
