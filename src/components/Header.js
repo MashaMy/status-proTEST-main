@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
 import logot from "../Asserts/logot.jpg";
-import ikonteg from "../Asserts/ikonteg.png";
+// import ikonteg from "../Asserts/ikonteg.png";
 
 const Styles = styled.div`
   .navbar {
@@ -77,7 +77,7 @@ export default function Header() {
               rel="noopener noreferrer"
             >
               Написать дизайнеру
-              <img width="25" height="31" src={ikonteg} alt="tel" />
+              {/* <img width="25" height="31" src={ikonteg} alt="tel" /> */}
             </a>
             <a className="mx-3" href="tel:+79631612833">
               +7 963 161 28 33

@@ -47,18 +47,17 @@ list-style-type: none;
 
     
     
-    @media all and (max-width: 1400px) {
-        .wrapper {
-            max-width: 100%;
+    @media all and (max-width: 1600px) {
+        img {
+            width: 100%;
         }
-    
+
     }
 
     @media all and (min-width: 991px) {
-        .wrapper {
-            max-width: 100%;
+        img {
+            width: 100%;
     }
-    
 
     }
     

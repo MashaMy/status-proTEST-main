@@ -11,9 +11,9 @@ import classOne from '../Asserts/classOne.jpg'
 import classTwo from '../Asserts/classTwo.jpg'
 import classTr from '../Asserts/classTr.jpg'
 import Price from '../components/Calculator/Price'
-import ilona from '../Asserts/ilona.jpg';
-import pavel from '../Asserts/pavel.jpg'
-import ekater from '../Asserts/ekater.jpg'
+// import ilona from '../Asserts/ilona.jpg';
+// import pavel from '../Asserts/pavel.jpg'
+// import ekater from '../Asserts/ekater.jpg'
 import PacetUnic from './Pacetsum/PacetUnic'
 import PacetStandart from './Pacetsum/PacetStandart';
 import PacetKapsula from './Pacetsum/PacetKapsula';
@@ -46,13 +46,13 @@ color: white;
 export const Glavnaya = () => (
      <Styles>
       <main>
-    <Slaider />
+    <Slaider/>
     
-      <Container style={{marginBottom: '30px'}} >
+      <Container  style={{marginBottom: '30px'}}>
     <h3 className ="text-center m-3">Наши работы</h3>
     <Row>
           <Col md={6}>
-            <Carousel style={{ marginBottom: "20px", justifyContent: "center"}}>
+            <Carousel  style={{ marginBottom: "20px"}}>
               <Carousel.Item interval={1000} style={{ height: "500px" }}>
                 <img src={renderOne} alt="komnata" text="First slide" />
                 <Carousel.Caption></Carousel.Caption>
@@ -68,7 +68,7 @@ export const Glavnaya = () => (
             </Carousel>
           </Col>
           <Col md={6}>
-            <Carousel style={{ marginBottom: "20px", justifyContent: "center"}}>
+            <Carousel  style={{ marginBottom: "20px"}}>
               <Carousel.Item interval={1000} style={{ height: "500px" }}>
                 <img src={classOne} alt="komnata" text="First slide" />
                 <Carousel.Caption></Carousel.Caption>
@@ -182,17 +182,17 @@ export const Glavnaya = () => (
 <h3 className="text-center m-3 "> Новые отзывы </h3>
 <div className="row pt-5 kraska">
       <div className="col-lg-4 text-center">
-        <img src= { ilona } alt="ilona" className="rounded-circle" width="140" height="140" />
-      <h4>Илона</h4>
+        {/* <img  src= { ilona } alt="ilona" className="rounded-circle" width="140" height="140" /> */}
+        <h4>Илона</h4>
          <p>Недавно я имела удовольствие сотрудничать с дизайн бюро Status Projects. Дизайнеры внимательно выслушали мои идеи, предложили свои решения. Каждый этап сопровождался консультациями. Девочки были внимательны к деталям, всегда пунктуальны и вежливы, у них действительно индивидуальный подход к заказчику. Я рекомендую бюро Status Projects всем, кто ищет профессионалов. Спасибо вам и успехов в вашем нелегком труде!!!</p>
             </div>
       <div className="col-lg-4 text-center">
-      <img src= { pavel } alt="ilona" className="rounded-circle" width="140" height="140" />
+      {/* <img src= { pavel } alt="ilona" className="rounded-circle" width="140" height="140" /> */}
         <h4>Павел</h4>
         <p>Выбирали в какой студии заказать проект дома, и остановились на Status Projects. И вот уже заканчивается ремонт, и очень захотелось выразить благодарность дизайнерам Надежде, Светлане и их руководителю Катюше! Их дружная слаженная работа создает атмосферу доверия и заслуживает уважения. Всегда открыты и на связи. Я сама почувствовала себя не заказчиком, а партнером в процессе создания проекта. Все проконтролируют, и рабочих, и поставку материалов. Я была спокойна и не нервничала. Всем кто думает заказывать проект, однозначно советую Status Projects !👍🏼🔥</p>
         </div>
       <div className="col-lg-4 text-center">
-      <img src= { ekater } alt="ilona" className="rounded-circle" width="140" height="140" />
+      {/* <img src= { ekater } alt="ilona" className="rounded-circle" width="140" height="140" /> */}
         <h4>Екатерина</h4>
         <p>Мы купили квартиру и очень хотели, чтобы все члены семьи имели личное пространство, свой уголок и в то же время необходимо было одно общее место, для сбора всей семьи. Надежда разработала всевозможные варианты и в итоге мы получили спальню, две детские и большую гостиную, совмещённую с кухней и столовой. 
 Работать с Надеждой одно удовольствие, объясняет нюансы строительных работ и дизайнерских решений, внимательно относится к пожеланиям заказчика, а самое главное она может реализовать вашу мечту о прекрасном доме.
