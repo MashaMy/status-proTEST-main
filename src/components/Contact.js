@@ -56,9 +56,9 @@ Email: <a href="mailto:Statusprojects@mail.ru" target="_blank "> Statusprojects@
 С нами связаться: 
 </p>
 <p>
-  <a href="https://chat.whatsapp.com/ILwcS1gM8rK4iJj6eTEAZN" target="_blank "><img width="41" height="41" src={ ikonwh } alt='tel'/></a>
-  <a href="https://vk.com/interior_design_sochi_1" target="_blank "><img width="41" height="41" src={ ikonvk } alt='tel'/></a>
-  <a href="https://t.me/design_buroSP" target="_blank "><img width="35" height="41" src={ikonteg} alt='tel'/></a>
+  <a className='fixednon' href="https://chat.whatsapp.com/ILwcS1gM8rK4iJj6eTEAZN" target="_blank "><img width="41" height="41" src={ ikonwh } alt='tel'/></a>
+  <a className='fixednon' href="https://vk.com/interior_design_sochi_1" target="_blank "><img width="41" height="41" src={ ikonvk } alt='tel'/></a>
+  <a className='fixednon' href="https://t.me/design_buroSP" target="_blank "><img width="35" height="41" src={ikonteg} alt='tel'/></a>
 </p>
 
 <div>

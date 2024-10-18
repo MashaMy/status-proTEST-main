@@ -45,7 +45,7 @@ export default function Header() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <NavbarBrand>
           <Link to="/">
-            <img src={logot} alt="foto" style={{ height: "55px" }} />
+            <img className='fixednon' src={logot} alt="foto" style={{ height: "55px" }} />
           </Link>
         </NavbarBrand>
 
