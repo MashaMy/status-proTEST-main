@@ -26,11 +26,9 @@ const Styles = styled.div`
     color: #adb1b8;
     &:hover {
     color: white;
-     font-family: "Playfair", serif;
-    }
+   }
   }
 
-  
   button {
     text-decoration: none;
     font-size: large;
