@@ -14,8 +14,20 @@ background-image: url('/src/Asserts/obratno.jpg');
         
     }
 
+    #hero {
+        width: 97%;
+        height: 50vh;
+        background-color: black;
+        background-size: cover;
+        position: relative;
+        margin-top: 20px;
+        border: 3px solid #ffd700;
+        font-family: "Playfair", serif;
+    }
+
 h2, h3, h4, p, li, ul  {
     color: white;
+    font-family: "Playfair", serif;
     }
 
     .about li ul {
@@ -69,7 +81,7 @@ list-style-type: none;
 
         body {
             background-image: none;
-            background-color: black !important;
+            background-color: #474a51 !important;
         }
         
         .adeptFoter{

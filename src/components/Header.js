@@ -16,7 +16,7 @@ const Styles = styled.div`
     display: flex;
     justify-content: center;
     margin: 0;
-  }
+     }
   .navbar-brand,
   .navbar-nav, .nav-link,
   a {
@@ -26,8 +26,11 @@ const Styles = styled.div`
     color: #adb1b8;
     &:hover {
     color: white;
+     font-family: "Playfair", serif;
     }
   }
+
+  
   button {
     text-decoration: none;
     font-size: large;
@@ -57,11 +60,14 @@ export default function Header() {
             <img className='fixednon' src={logot} alt="foto" style={{ height: "55px" }} />
           </Link>
         </NavbarBrand>
-        <NavbarToggle aria-controls="responsive-navbar-nav"></NavbarToggle>
-        <span className="menu-text pokazvmobile">Меню</span>
         
-        <NavbarCollapse id="responsive-navbar-nav" > 
-          <Nav className="m-auto">
+        <Nav className="ml-auto"> {/* Выравниваем гамбургер справа */}
+            <NavbarToggle aria-controls="responsive-navbar-nav">
+             </NavbarToggle>
+          </Nav>
+           
+        <NavbarCollapse id="responsive-navbar-nav"> 
+          <Nav className="me-auto">
             <Nav.Link className="mx-3" as={Link} to="/">
               Главная
             </Nav.Link>
