@@ -107,7 +107,7 @@ export const Glavnaya = () => (
   
 <div class='d-flex align-items-center justify-content-center'>
          <div  class='lozung text-center'>
-              <h3 className='hun'>Атмосферные интерьеры с характером</h3>
+              <h3 className='vuebon fs-4'>Атмосферные интерьеры с характером</h3>
          </div>
 </div>
 
