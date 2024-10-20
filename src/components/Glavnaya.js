@@ -99,13 +99,14 @@ export const Glavnaya = () => (
   <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"/>
 </svg></a>
 </div>
+
 </div>
 </div>
 </div>
 </Container>
   
 <div class='d-flex align-items-center justify-content-center'>
-         <div  class='lozung d-flex align-items-center justify-content-center'>
+         <div  class='lozung text-center'>
               <h3 className='hun'>Атмосферные интерьеры с характером</h3>
          </div>
 </div>
