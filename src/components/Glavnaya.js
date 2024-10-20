@@ -11,66 +11,90 @@ import classOne from '../Asserts/classOne.jpg'
 import classTwo from '../Asserts/classTwo.jpg'
 import classTr from '../Asserts/classTr.jpg'
 import Price from '../components/Calculator/Price'
-// import ilona from '../Asserts/ilona.jpg';
-// import pavel from '../Asserts/pavel.jpg'
-// import ekater from '../Asserts/ekater.jpg'
 import PacetUnic from './Pacetsum/PacetUnic'
 import PacetStandart from './Pacetsum/PacetStandart';
 import PacetKapsula from './Pacetsum/PacetKapsula';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
+import rakushka from '../Asserts/rakushka.png'
+
+
 
 const Styles = styled.div `
+.btn-oval {
+  width: 210px;
+  height: 50px;
+  border-radius: 35px;
+  background: transparent;
+  border: 1px solid white;
+}
+
+.btn-oval:hover {
+border: 3px solid white;
+}
+
 a {
 padding: 6px;
 text-decoration: none;
 color: white;
 }
 
-a:hover {
-color: black;
-}
 
 .cvet {
    background-color: #d4dde4;
   }
 
-h2, h3, h4, p, li, ul {
+h1, h2, h3, h4, p, li, ul {
 color: white;
  font-family: "Playfair", serif;
+
 }
+
+ .vuebon {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffd700;
+ }
+
+ .hun{
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+ }
 `
 
 export const Glavnaya = () => (
      <Styles>
       <main>
     <Slaider/>
-    
-    <section className='pokazvmobile'>
-    <Container id='hero' class='d-flex align-items-center justify-content-center '>
-<div class="container">
+    {/* pokazvmobile */}
+    <section className=' pokazvmobile pt-4'>
+    <Container id='hero' class='  d-flex align-items-center justify-content-center'>
+<div class="container utoch">
     <div class="row justify-content-center">
-         <div class='col-md-6 col-lg-8'>
-         <h2 className ="text-center m-3 ">STATUS PROJECTS</h2>
-         <h3 className ="text-center m-3 ">cтудия дизайна интерьера в Сочи</h3>
-         <h4 className ="text-center m-3 ">Атмосферные интерьеры с характером</h4>
-         </div>
+         <div class='col-md-6 col-lg-8 text-center'>
+        <img src= { rakushka } class="card-img-top" alt='hren' style = {{'height': "120px", 'width': "120px"}}></img>
+         <h1 class ="text-center m-3 utoch">STATUS</h1>
+         <p className='vuebon'>interior disign</p>
+         <h3 className ="text-center m-1 fw-lighter lh-lg hun">Cтудия дизайна интерьера в Сочи</h3>
+       </div>
     </div>
-<div class="row mt-5 justify-content-center">
-<div class="d-flex align-items-center justify-content-center">
-<a href="https://wa.me/79631612833" target="_blank "><button type="button" className="btn btn-outline-light">Написать</button></a>
-</div>
-<div class='col-xl-2 col-md-4 col-6 text-center'>
+<div class="row mt-1 justify-content-center">
+<div class='col-12 text-center pt-2 py-2'>
 <div class="icon-box">
-<a href="https://t.me/design_buroSP" target="_blank "><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" class="bi bi-telegram pt-2" viewBox="0 0 16 16">
-  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+<a href="https://t.me/design_buroSP" target="_blank "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="78" height="78" viewBox="0 0 64 64">
+<path d="M 32 10 C 19.85 10 10 19.85 10 32 C 10 44.15 19.85 54 32 54 C 44.15 54 54 44.15 54 32 C 54 19.85 44.15 10 32 10 z M 32 14 C 41.941 14 50 22.059 50 32 C 50 41.941 41.941 50 32 50 C 22.059 50 14 41.941 14 32 C 14 22.059 22.059 14 32 14 z M 41.041016 23.337891 C 40.533078 23.279297 39.894891 23.418531 39.181641 23.675781 C 37.878641 24.145781 21.223719 31.217953 20.261719 31.626953 C 19.350719 32.014953 18.487328 32.437828 18.486328 33.048828 C 18.486328 33.478828 18.741312 33.721656 19.445312 33.972656 C 20.177313 34.234656 22.023281 34.79275 23.113281 35.09375 C 24.163281 35.38275 25.357344 35.130844 26.027344 34.714844 C 26.736344 34.273844 34.928625 28.7925 35.515625 28.3125 C 36.102625 27.8325 36.571797 28.448688 36.091797 28.929688 C 35.611797 29.410688 29.988094 34.865094 29.246094 35.621094 C 28.346094 36.539094 28.985844 37.490094 29.589844 37.871094 C 30.278844 38.306094 35.239328 41.632016 35.986328 42.166016 C 36.733328 42.700016 37.489594 42.941406 38.183594 42.941406 C 38.877594 42.941406 39.242891 42.026797 39.587891 40.966797 C 39.992891 39.725797 41.890047 27.352062 42.123047 24.914062 C 42.194047 24.175062 41.960906 23.683844 41.503906 23.464844 C 41.365656 23.398594 41.210328 23.357422 41.041016 23.337891 z" fill="white"></path>
 </svg></a>
 </div>
+<div class="d-flex align-items-center justify-content-center  pt-4 py-4">
+<button type="button" className="btn-oval btn-outline-light col-6 "><a href="https://wa.me/79631612833" target="_blank ">ЗАДАТЬ ВОПРОС</a></button>
 </div>
-<div class='col-xl-2 col-md-4 col-6 text-center'>
+</div>
+<div class='col-12 text-center pt-2 py-2'>
 <div class="icon-box">
-<a href="https://vk.com/interior_design_sochi_1" target="_blank "><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-bootstrap pt-2 mx-3" viewBox="0 0 16 16">
+<a href="https://vk.com/interior_design_sochi_1" target="_blank "><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-bootstrap" viewBox="0 0 16 16">
   <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"/>
   <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"/>
 </svg></a>
@@ -79,15 +103,13 @@ export const Glavnaya = () => (
 </div>
 </div>
 </Container>
-</section>
-
-<section className='pokazvmobile'>
-    <Container>
-    <div>
-<h4 className ="text-center m-3">Добро пожаловать в нашу студию дизайна интерьера! Каждый проект для нас — это новая история. Мы считаем, что дизайн — это не только о красоте, но и о комфорте. Наши интерьеры создаются с учетом ваших потребностей, стиля жизни и возможностей.
-</h4>
+  
+<div class='d-flex align-items-center justify-content-center'>
+         <div  class='lozung d-flex align-items-center justify-content-center'>
+              <h3 className='hun'>Атмосферные интерьеры с характером</h3>
+         </div>
 </div>
-    </Container>
+
 </section>
 
 <Container>
@@ -149,7 +171,7 @@ export const Glavnaya = () => (
 </p>
 </CardText>
 <div className ='text-center py-2'>
-<button type="button" className ="btn btn-outline-light"> <a  href="https://wa.me/79184055993" target="_blank ">Написать Екатерине</a></button>
+<button type="button" className ="btn-oval btn-outline-light"><a  href="https://wa.me/79184055993" target="_blank ">Написать Екатерине</a></button>
 </div>
 </CardBody>
 </div>
@@ -172,7 +194,7 @@ export const Glavnaya = () => (
 </p>
 </CardText>
 <div className='text-center py-2'>
-<button type="button" className="btn btn-outline-light "> <a href="https://wa.me/79631612833" target="_blank ">Написать Надежде</a></button>
+<button type="button" className="btn-oval btn-outline-light "> <a href="https://wa.me/79631612833" target="_blank ">Написать Надежде</a></button>
 </div>
 </CardBody>
 </div>
@@ -196,7 +218,7 @@ export const Glavnaya = () => (
 </p>
 </CardText>
 <div className='text-center py-2'>
-<button type="button" className="btn btn-outline-light "> <a href="https://wa.me/79183004489" target="_blank ">Написать Светлане</a></button>
+<button type="button" className="btn-oval btn-outline-light "> <a href="https://wa.me/79183004489" target="_blank ">Написать Светлане</a></button>
 </div>
 </CardBody >
 </div>

@@ -57,7 +57,7 @@ export const About = () => (
   </div>
 
   <div>
-<img src= { Picabout } class="rounded mx-auto d-block img-fluid" alt="Picabout" width={800} height={500}/>
+<img src= { Picabout } class="rounded mx-auto d-block img-fluid" alt="Picabout" style={{'height': '500px', 'width': '900px'}}/>
 </div>
 </div>
 </div>

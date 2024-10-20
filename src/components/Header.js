@@ -47,19 +47,21 @@ const Styles = styled.div`
     color: white;
     }
   }
-`;
+`
 
 export default function Header() {
   return (
     <Styles>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      
+      <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark">
+      
         <NavbarBrand>
           <Link to="/">
             <img className='fixednon' src={logot} alt="foto" style={{ height: "55px" }} />
           </Link>
-        </NavbarBrand>
-        
-        <Nav className="ml-auto"> {/* Выравниваем гамбургер справа */}
+          </NavbarBrand>
+               
+        <Nav className="me-auto"> {/* Выравниваем гамбургер справа */}
             <NavbarToggle aria-controls="responsive-navbar-nav">
              </NavbarToggle>
           </Nav>
@@ -84,6 +86,7 @@ export default function Header() {
             <Nav.Link className="mx-3" as={Link} to="/contact">
               Контакты
             </Nav.Link>
+
             <a
               className="mx-3"
               href="https://chat.whatsapp.com/ILwcS1gM8rK4iJj6eTEAZN"
@@ -96,9 +99,10 @@ export default function Header() {
             <a className="mx-3" href="tel:+78002502838">
             8 800 250 28 38
             </a>
+            
           </Nav>
-        </NavbarCollapse>
-      </Navbar>
+          </NavbarCollapse>
+       </Navbar>
     </Styles>
   );
 }
