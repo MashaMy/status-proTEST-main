@@ -2,8 +2,7 @@
 
 
 body {
-    
-background-image: url('/src/Asserts/obratno.jpg');
+ background-image: url('/src/Asserts/obratno.jpg');
  background-attachment: fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -17,7 +16,9 @@ background-image: url('/src/Asserts/obratno.jpg');
     }
 
     #hero {
-       background-image: url('Asserts/mobglav.png');
+       background-image: url('Asserts/mobglav.png')  ;
+       background-color: rgba(128, 129, 129, 0.9);
+       filter: alpha(Opacity=90);
         width: 100%;
         height: auto;
         background-repeat: no-repeat;
@@ -26,11 +27,12 @@ background-image: url('/src/Asserts/obratno.jpg');
         display: flex;
         justify-content: center;
         border-radius: 20px;
+        
         }
 
 
         .lozung {
-            width: 100%;
+            width: 80%;
             height: 8vh;
             border-radius: 20px;
             border: 3px solid white;
@@ -123,7 +125,7 @@ list-style-type: none;
         }
 
         .lozung {
-            width: 100%;
+            width: 80%;
             height: auto;
         }
        }
