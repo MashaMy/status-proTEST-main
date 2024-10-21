@@ -74,7 +74,7 @@ export const Glavnaya = () => (
     <div class="row justify-content-center">
          <div class='col-md-6 col-lg-8 text-center pt-2'>
         <h1 class ="text-center m-2 utoch">STATUS</h1>
-         <h3 className='vuebon pt-4'>ДИЗАЙН ИНТЕРЬЕРА</h3>
+         <h3 className='vuebon pt-4 '>ДИЗАЙН ИНТЕРЬЕРА</h3>
          <h3 className='vuebon'>СОЧИ</h3>
       </div>
     </div>
@@ -102,7 +102,7 @@ export const Glavnaya = () => (
   
 <div class='d-flex align-items-center justify-content-center'>
          <div  class='lozung text-center'>
-              <h3 className='vuebon fs-4'>Атмосферные интерьеры с характером</h3>
+              <h3 className='vuebon fs-4 fst-italic'>Атмосферные интерьеры с характером</h3>
          </div>
          </div>
          
