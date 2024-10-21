@@ -16,7 +16,7 @@ const Styles = styled.div`
     display: flex;
     justify-content: center;
     margin: 0;
-     }
+    }
   .navbar-brand,
   .navbar-nav, .nav-link,
   a {
@@ -61,13 +61,11 @@ export default function Header() {
           </Link>
           </NavbarBrand>
                
-        <Nav className="me-auto"> {/* Выравниваем гамбургер справа */}
-            <NavbarToggle aria-controls="responsive-navbar-nav">
-             </NavbarToggle>
-          </Nav>
-           
+         
+            <NavbarToggle aria-controls="responsive-navbar-nav"/>
+             
         <NavbarCollapse id="responsive-navbar-nav"> 
-          <Nav className="me-auto">
+          <Nav className="mr-auto">
             <Nav.Link className="mx-3" as={Link} to="/">
               Главная
             </Nav.Link>

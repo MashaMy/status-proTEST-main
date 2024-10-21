@@ -17,7 +17,6 @@ import PacetKapsula from './Pacetsum/PacetKapsula';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
-import rakushka from '../Asserts/rakushka.png'
 
 
 
@@ -75,8 +74,7 @@ export const Glavnaya = () => (
 <div class="container">
     <div class="row justify-content-center">
          <div class='col-md-6 col-lg-8 text-center pt-2'>
-        <img src= { rakushka } class="card-img-top" alt='hren' style = {{'height': "107px", 'width': "120px"}}></img>
-         <h1 class ="text-center m-3 utoch">STATUS</h1>
+        <h1 class ="text-center m-3 utoch">STATUS</h1>
          <p className='vuebon pt-4'>interior disign Sochi</p>
       </div>
     </div>
@@ -106,10 +104,21 @@ export const Glavnaya = () => (
          <div  class='lozung text-center'>
               <h3 className='vuebon fs-4'>Атмосферные интерьеры с характером</h3>
          </div>
-</div>
-
+         </div>
+         
+         <Container className='pt-3'>
+         <div  class='text-center'>
+         <h3>
+         Добро пожаловать в нашу студию дизайна интерьера!  Каждый проект для нас — это новая история. Мы считаем, что дизайн — это не только о красоте, но и о комфорте. Наши интерьеры создаются с учетом ваших потребностей, стиля жизни и возможностей.
+         </h3>
+      </div>
+      </Container>
+      <div className='d-flex align-items-center justify-content-center py-3 pt-3'>
+      <button type="button" className="btn-oval btn-outline-light col-6  fs-3"><a href="/portfolio" target="_blank ">Портфолио</a></button>
+      </div>
 </section>
 
+<sectoin class='fixednon'>
 <Container>
       <Container style={{marginBottom: '30px'}}>
   <h3 className ="text-center m-3">Наши работы</h3>
@@ -149,7 +158,7 @@ export const Glavnaya = () => (
         </Row>
    </Container>
    </Container>
-
+   </sectoin>
 
    <Container className ='about my-3 ' id='about'>
    <h3 className ="text-center m-3">Дизайнеры</h3>
@@ -192,7 +201,7 @@ export const Glavnaya = () => (
 </p>
 </CardText>
 <div className='text-center py-2'>
-<button type="button" className="btn-oval btn-outline-light "> <a href="https://wa.me/79631612833" target="_blank ">Написать Надежде</a></button>
+<button type="button" className="btn-oval btn-outline-light "><a href="https://wa.me/79631612833" target="_blank ">Написать Надежде</a></button>
 </div>
 </CardBody>
 </div>
@@ -238,7 +247,13 @@ export const Glavnaya = () => (
 <PacetKapsula/>
 <Price/>
 
-
+<section className='pokazvmobile text-center pt-5 py-2'>
+<Container>
+<button type="button" className ="btn-oval btn-outline-light"><a className="mx-3" href="tel:+78002502838">
+            8 800 250 28 38
+            </a></button>
+</Container>
+</section>
 
 <Container className='fixednon'>
   <div className="pt-3">

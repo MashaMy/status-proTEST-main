@@ -26,24 +26,17 @@ body {
         position: relative;
         display: flex;
         justify-content: center;
-        border-radius: 20px;
-        
+       
         }
 
 
         .lozung {
             width: 80%;
             height: 8vh;
-            border-radius: 20px;
-            border: 3px solid white;
         }
 
 
-        /* .hren {
-            background-image: url('Asserts/rakushka.png');
-          }
-    */
-h2, h3, h4, p, li, ul  {
+        h2, h3, h4, p, li, ul  {
     color: white;
     font-family: "Playfair", serif;
     }
@@ -128,6 +121,10 @@ list-style-type: none;
             width: 80%;
             height: auto;
         }
+
+        .navbar-toggler {
+            margin-left: 80% !important; /* Сдвигает гамбургер вправо */
+          }
        }
                  
       

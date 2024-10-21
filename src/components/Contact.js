@@ -47,7 +47,7 @@ export const Contact = () => (
 Адрес: г.Сочи, ул. Первомайская, д. 26, офис 404
 </p>
 <p className="font-italic">
-Телефон: <a  href="tel:+79631612833"> +7 963 161 28 33 </a>
+Телефон: <a  href="tel:+79631612833">8 800 250 28 38 и +7 963 161 28 33 </a>
 </p>
 <p className="font-italic">
 Email: <a href="mailto:Statusprojects@mail.ru" target="_blank "> Statusprojects@mail.ru</a>
