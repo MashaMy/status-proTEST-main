@@ -123,9 +123,10 @@ list-style-type: none;
         }
 
         .navbar-toggler {
-            margin-left: 80% !important; /* Сдвигает гамбургер вправо */
+            margin-left: 75% !important; /* Сдвигает гамбургер вправо */
           }
-       }
+
+        }
                  
       
     

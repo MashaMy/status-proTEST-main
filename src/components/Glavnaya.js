@@ -69,13 +69,13 @@ export const Glavnaya = () => (
       <main>
     <Slaider/>
     {/* pokazvmobile */}
-    <section className=' pokazvmobile pt-4'>
+    <section className=' pokazvmobile'>
     <Container id='hero' class='  d-flex align-items-center justify-content-center'>
 <div class="container">
     <div class="row justify-content-center">
          <div class='col-md-6 col-lg-8 text-center pt-2'>
-        <h1 class ="text-center m-3 utoch">STATUS</h1>
-         <p className='vuebon pt-4'>interior disign Sochi</p>
+        <h1 class ="text-center m-2 utoch">STATUS</h1>
+         <p className='vuebon pt-1'>ДИЗАЙН ИНТЕРЬЕРА СОЧИ</p>
       </div>
     </div>
 <div class="row mt-1 justify-content-center">
@@ -108,9 +108,10 @@ export const Glavnaya = () => (
          
          <Container className='pt-3'>
          <div  class='text-center'>
-         <h3>
+          <h1>О НАС</h1>
+         <h4>
          Добро пожаловать в нашу студию дизайна интерьера!  Каждый проект для нас — это новая история. Мы считаем, что дизайн — это не только о красоте, но и о комфорте. Наши интерьеры создаются с учетом ваших потребностей, стиля жизни и возможностей.
-         </h3>
+         </h4>
       </div>
       </Container>
       <div className='d-flex align-items-center justify-content-center py-3 pt-3'>
@@ -250,7 +251,7 @@ export const Glavnaya = () => (
 <section className='pokazvmobile text-center pt-5 py-2'>
 <Container>
 <button type="button" className ="btn-oval btn-outline-light"><a className="mx-3" href="tel:+78002502838">
-            8 800 250 28 38
+            Позвонить
             </a></button>
 </Container>
 </section>

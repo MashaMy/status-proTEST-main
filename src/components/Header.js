@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
 import logot from "../Asserts/logot.jpg";
-// import ikonteg from "../Asserts/ikonteg.png";
+
 
 const Styles = styled.div`
   .navbar {
@@ -55,7 +55,7 @@ export default function Header() {
       
       <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark">
       
-        <NavbarBrand>
+        <NavbarBrand className="fixednon">
           <Link to="/">
             <img className='fixednon' src={logot} alt="foto" style={{ height: "55px" }} />
           </Link>
