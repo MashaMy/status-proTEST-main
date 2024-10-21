@@ -87,7 +87,7 @@ export default function Header() {
 
             <a
               className="mx-3"
-              href="https://chat.whatsapp.com/ILwcS1gM8rK4iJj6eTEAZN"
+              href="https://wa.me/79631612833"
               target="_blank"
               rel="noopener noreferrer"
             >
